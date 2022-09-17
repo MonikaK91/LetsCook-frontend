@@ -23,7 +23,7 @@
                   <div class="dropdown-content2">
                     <!-- link koji vodi na stranicu gdje su prikazani svi recepti određenog(trenutnog) korisnika  -->
                     <router-link :to="'/moji-oglasi/' + this.korisnik"
-                      >Moji oglasi</router-link
+                      >Moji recepti</router-link
                     >
                     <router-link to="/lozinka">Promijeni lozinku</router-link>
                   </div>
