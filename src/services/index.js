@@ -4,7 +4,7 @@ import $router from '@/router'
 //instanca axios-a za potrebe Let's Cook backenda
 //Service za komunikaciju sa backendom
 let Service = axios.create({
-    baseURL: 'https://lets-cook-backend-monikak91.vercel.app',
+    baseURL: 'https://lets-cook-backend.vercel.app',
     timeout: 30000, //vidi da li ćeš promijeniti
     headers: {
       Accept: "application/json",
