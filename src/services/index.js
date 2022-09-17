@@ -5,7 +5,11 @@ import $router from '@/router'
 //Service za komunikaciju sa backendom
 let Service = axios.create({
     baseURL: 'https://lets-cook-backend.vercel.app/',
-    timeout: 30000 //vidi da li ćeš promijeniti
+    timeout: 30000, //vidi da li ćeš promijeniti
+    headers: {
+      Accept: "application/json",
+      "Content-Type": "application/json",
+    },
 })
 
 //prije svakog poslanog requesta na backend izvrši:
